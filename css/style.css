@@ -97,6 +97,27 @@ header{
     margin: 0 14rem;
 }
 
+.section-black{
+    background-color: #23272a;
+    padding: 1rem 14rem 1.5rem 14rem;
+}
+
+.rectangle-pink{
+    background-color: #f08080;
+    width: 20rem;
+    align-items: stretch;
+    height: 100%;
+    border: 1px rgb(255, 255, 255) dashed;
+}
+
+.rectangle-cyan{
+    background-color: #20b2aa;
+    width: 12rem;
+    align-items: stretch;
+    height: 100%;
+    border: 1px rgb(255, 255, 255) dashed;
+}
+
 #titolo-centrale{
     height: 80%;
 }
