@@ -22,6 +22,7 @@ header{
     padding-top: 1rem;
     padding-bottom: 2rem;
     flex-wrap: wrap;
+    min-width: 63rem;
 }
 
 .first-div-header{
@@ -39,6 +40,62 @@ header{
     min-width: 39.65rem;
 }
 
+.square-big-gray{
+    background-color: #1e90ff;
+    width: 45rem;
+    height: 20rem;
+    border: 1px black solid;
+    margin-right: 14rem;
+}
+
+.square-big{
+    background-color: #1e90ff;
+    width: 45rem;
+    height: 20rem;
+    border: 1px black solid;
+}
+
+.square-small{
+    background-color: #ffc0cb;
+    width: 30rem;
+    height: 20rem;
+    border: 1px black solid;
+}
+
+.square-small-gray{
+    background-color: #ffc0cb;
+    width: 30rem;
+    height: 20rem;
+    border: 1px black solid;
+    margin-left: 14rem;
+}
+
+.dimension-section1{
+    height: 30rem;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#dimension-section1-gray{
+    background-color: #d3d3d3;
+}
+
+.dimension-section2{
+    height: 50rem;
+    padding: 3rem 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d3d3;
+}
+
+.big-square-of-section2{
+    background-color: #228b22;
+    width: 75rem;
+    height: 40rem;
+    border: 1px black solid;
+    margin: 0 14rem;
+}
 
 #titolo-centrale{
     height: 80%;
