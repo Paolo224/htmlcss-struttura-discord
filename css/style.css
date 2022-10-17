@@ -118,6 +118,32 @@ header{
     border: 1px rgb(255, 255, 255) dashed;
 }
 
+.section-black-small{
+    background-color: #23272a;
+    padding: 1rem 14rem 1.5rem 14rem;
+    margin-top: 0.1rem;
+    width: 100%;
+    justify-content: center;
+}
+
+#logo2{
+    background-color: #7fffd4;
+    width: 50%;
+    height: 80%;
+    border: 1px rgb(255, 255, 255) dashed;
+    justify-content: flex-start;
+    padding: .8rem 0;
+}
+
+#button3{
+    background-color: #7fffd4;
+    width: 50%;
+    height: 80%;
+    border: 1px rgb(255, 255, 255) dashed;
+    justify-content: flex-end;
+    padding: .8rem 0;
+}
+
 #titolo-centrale{
     height: 80%;
 }
