@@ -20,19 +20,27 @@ header{
     justify-content: center;
     align-items: flex-start; 
     padding-top: 1rem;
+    padding-bottom: 2rem;
     flex-wrap: wrap;
 }
 
-header div{
+.first-div-header{
     justify-content: center;
     align-items: center; 
-    height: 1.6rem;
+    height: 10%;
     width: 100%;
 }
 
-#titolo-centrale{
+.second-div-header{
     background-color: #ee82ee;
-    margin: 2rem 22rem;
+    margin: 2rem 25rem 2rem 25rem;
+    height: 80%;
+}
+
+
+#titolo-centrale{
+    margin: 2rem 25rem;
+    height: 80%;
 }
 
 #logo{
@@ -40,6 +48,7 @@ header div{
     text-align: start;
     background-color: #daa520;
     border: 1px black dashed;
+    height: 1.6rem;
 }
 
 #link{
@@ -47,6 +56,7 @@ header div{
     text-align: center;
     background-color: #daa520;
     border: 1px black dashed;
+    height: 1.6rem;
 }
 
 #login{
@@ -54,5 +64,6 @@ header div{
     text-align: end;
     background-color: #daa520;
     border: 1px black dashed;
+    height: 1.6rem;
 } 
 
