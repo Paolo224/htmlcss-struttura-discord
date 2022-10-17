@@ -29,17 +29,18 @@ header{
     align-items: center; 
     height: 10%;
     width: 100%;
+    min-width: 63rem;
 }
 
 .second-div-header{
     background-color: #ee82ee;
     margin: 2rem 25rem 2rem 25rem;
     height: 80%;
+    min-width: 39.65rem;
 }
 
 
 #titolo-centrale{
-    margin: 2rem 25rem;
     height: 80%;
 }
 
