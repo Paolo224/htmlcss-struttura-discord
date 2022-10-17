@@ -14,7 +14,8 @@
 }
 
 header{
-    background-color: #add8e6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     width: 100%;
     height: 30rem;
     justify-content: center;
@@ -23,6 +24,7 @@ header{
     padding-bottom: 2rem;
     flex-wrap: wrap;
     min-width: 63rem;
+
 }
 
 .first-div-header{
@@ -34,7 +36,7 @@ header{
 }
 
 .second-div-header{
-    background-color: #ee82ee;
+    /* background-color: #ee82ee; */
     margin: 2rem 25rem 2rem 25rem;
     height: 80%;
     min-width: 39.65rem;
@@ -133,6 +135,24 @@ header{
     justify-content: center;
 }
 
+#titolo-principale{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#introduzione{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.7rem;
+    line-height: 1.4rem;
+}
+
 #logo2{
     background-color: #7fffd4;
     width: 50%;
@@ -142,7 +162,7 @@ header{
     padding: .8rem 0;
 }
 
-#button3{
+#div-button4{
     background-color: #7fffd4;
     width: 50%;
     height: 80%;
@@ -151,31 +171,67 @@ header{
     padding: .8rem 0;
 }
 
+.div-button2-3{
+    text-align: center;
+}
+
 #titolo-centrale{
     height: 80%;
+    padding: .8rem;
 }
 
 #logo{
     width: 20%;
     text-align: start;
-    background-color: #daa520;
-    border: 1px black dashed;
     height: 1.6rem;
 }
 
 #link{
     width: 80%;
     text-align: center;
-    background-color: #daa520;
-    border: 1px black dashed;
     height: 1.6rem;
 }
 
 #login{
     width: 20%;
     text-align: end;
-    background-color: #daa520;
-    border: 1px black dashed;
     height: 1.6rem;
 } 
 
+[href]{
+    color: white;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 0 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px #23272a ;
+}
+
+#button1{
+    border: 1px white solid;
+    border-radius: 45rem;
+    color: black;
+    padding: .5rem .6rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#button2{
+    border: 1px white solid;
+    border-radius: 45rem;
+    color: black;
+    padding: .5rem .6rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 1rem;
+}
+
+#button3{
+    border: 1px #23272a solid;
+    border-radius: 45rem;
+    color: rgb(255, 255, 255);
+    padding: .5rem .6rem;
+    background-color: #23272a; 
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1rem;
+}
