@@ -1,0 +1,50 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.default{
+    margin: 0 14rem;
+}
+
+header{
+    background-color: #add8e6;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center; 
+}
+
+header div{
+    justify-content: center;
+    align-items: center; 
+    height: 1.6rem;
+    width: 100%;
+}
+
+header div div{
+    background-color: #daa520;
+    border: 1px black dashed;
+}
+
+#logo{
+    width: 20%;
+    text-align: start;
+}
+
+#link{
+    width: 80%;
+    text-align: center;
+}
+
+#login{
+    width: 20%;
+    text-align: end;
+} 
+
